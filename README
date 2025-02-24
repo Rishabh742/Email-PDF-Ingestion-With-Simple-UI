@@ -1,0 +1,142 @@
+1. Git 
+
+Git is a version control system used to track changes in code, allowing multiple developers to work on a project simultaneously.
+
+-> Purpose in the Project
+   (1) Helps track code changes and rollback versions if needed.
+   (2) Allows collaboration when working with multiple developers.
+
+> Features
+   (1) Branching & Merging – Developers can work on different branches and merge changes.
+   (2) Distributed Version Control – Everyone has a complete copy of the code.
+   (3) Commit History – Tracks every change made to the code.
+
+2. GitHub 
+
+GitHub is a cloud-based platform that hosts Git repositories, making it easier to manage and collaborate on projects.
+
+-> Purpose in the Project
+   (1) Stores the project code remotely.
+   (2) Enables team collaboration and code sharing.
+   (3) Allows version control and issue tracking.
+
+-> Features
+   (1) Pull Requests & Code Review – Enables developers to suggest and review changes.
+   (2) CI/CD Integration – Automates testing and deployment.
+   (3) Issue Tracking – Manages bugs and feature requests.
+
+3. Prisma ORM 
+
+Prisma is an Object-Relational Mapping (ORM) tool that simplifies database interactions in TypeScript and JavaScript applications.
+
+-> Purpose in the Project
+   (1) Provides a structured way to interact with PostgreSQL.
+   (2) Allows easy database queries without writing raw SQL.
+   (3) Handles schema migrations to manage database changes.
+
+-> Features
+   (1) Auto-generated TypeScript models – Strongly typed database queries.
+   (2) Query Optimization – Efficient database interactions.
+   (3) Migration Management – Easily update database schema.
+
+4. Next.js 
+
+Next.js is a React-based framework that enables server-side rendering (SSR) and static site generation (SSG) for fast web applications.
+
+-> Purpose in the Project
+   (1) Provides a backend (API routes) and frontend (UI) in one framework.
+   (2) Enables server-side data fetching for processing emails.
+   (3) Supports dynamic routing for easy navigation.
+
+-> Features
+   (1) API Routes – Built-in backend support.
+   (2) Server-side Rendering (SSR) – Fetches data on demand.
+   (3) Static Site Generation (SSG) – Improves performance.
+
+5. IMAP (Internet Message Access Protocol) 
+
+IMAP is an email retrieval protocol that allows users to access their emails from multiple devices without downloading them permanently.
+
+-> Purpose in the Project
+   (1) Fetches unread emails with PDF attachments.
+   (2) Allows the application to check inboxes for new emails.
+
+-> Features
+   (1) Access emails from multiple devices – Messages remain on the server.
+   (2) Supports email synchronization – Changes reflect across devices.
+
+6. POP3 (Post Office Protocol v3) 
+
+POP3 is another email retrieval protocol that downloads emails to a single device and then deletes them from the server.
+
+-> Purpose in the Project
+   (1) Provides an alternative method to fetch emails if IMAP is unavailable.
+
+-> Features
+   (1) Emails are downloaded and stored locally.
+   (2) Consumes less server storage.
+
+7. UUID (Universally Unique Identifier) 
+
+A UUID is a 128-bit unique identifier used to prevent conflicts in distributed systems.
+
+-> Purpose in the Project
+   (1) Used as a unique primary key for storing email configurations and attachments in the database.
+
+-> Features
+   (1) Globally Unique – No two UUIDs are the same.
+   (2) Secure & Randomized – Hard to guess or duplicate.
+
+8. API (Application Programming Interface) 
+
+An API allows different software applications to communicate with each other.
+
+-> Purpose in the Project
+   (1) Connects frontend and backend using Next.js API routes.
+   (2) Allows fetching emails, storing configurations, and retrieving email data.
+
+-> Features
+   (1) RESTful Design – Uses standard HTTP methods (GET, POST, etc.).
+   (2) Handles JSON data – Easy data exchange between frontend and backend.
+
+9. GET Request 
+
+A GET request is used to retrieve data from a server.
+
+-> Purpose in the Project
+   (1) Fetches stored email configurations from the database.
+   (2) Retrieves emails and attachment details.
+
+10. POST Request 
+
+A POST request is used to send data to a server and store it in a database.
+
+-> Purpose in the Project
+   (1) Saves new email configurations entered by users.
+   (2) Stores metadata of downloaded PDF attachments.
+
+
+11. PostgreSQL 
+
+PostgreSQL is an open-source relational database known for its scalability, performance, and security.
+
+-> Purpose in the Project
+   (1) Stores email configurations and attachment details.
+   (2) Ensures data consistency with Prisma ORM.
+
+-> Features
+   (1) ACID Compliance – Ensures data integrity.
+   (2) Extensibility – Supports JSON, full-text search, and geospatial queries.
+
+12. UI (User Interface) 
+
+UI refers to the frontend that users interact with, built using Next.js & React.
+
+-> Purpose in the Project
+   (1) Allows users to configure email settings.
+   (2) Displays stored emails and attachments.
+
+-> Features
+   (1) Interactive Forms – For adding email credentials.
+   (2) Data Fetching – Displays stored configurations.
+
