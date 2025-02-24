@@ -31,7 +31,7 @@ Video Explanation
 
    (2) AI Tools Used:
 
-      (a) ChatGPT for debugging, API structure, and Prisma queries.
+      (a) GitHub Copilot for debugging, API structure, and Prisma queries.
 
       (b) GitHub Copilot for faster function writing.
 
