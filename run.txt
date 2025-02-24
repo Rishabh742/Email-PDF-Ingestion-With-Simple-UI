@@ -1,0 +1,38 @@
+Running & Testing
+  Installation
+
+       npm install
+
+  Run Migrations
+
+       npx prisma migrate dev
+
+  Start the App
+
+       npm run dev
+
+
+Test the App
+
+  (1) Configure an email.
+
+  (2) Send a test email with a PDF.
+
+  (3) Run GET /api/email-ingestion/fetch to process emails.
+
+  (4) Confirm the PDF appears in ./pdfs/ and metadata in PostgreSQL.
+
+
+Video Explanation
+
+ Include:
+
+   (1) Workflow Demo (Email → PDF Download → DB Record)
+
+   (2) AI Tools Used:
+
+      (a) ChatGPT for debugging, API structure, and Prisma queries.
+
+      (b) GitHub Copilot for faster function writing.
+
+      (c) AI-generated database optimizations.
